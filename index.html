@@ -1,0 +1,20 @@
+<!-- index.html -->
+<html>
+<body>
+    <form id="inferenceForm">
+        Input Data: <input type="text" id="inputData" required>
+        <button type="button" onclick="performInference()">Submit</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script>
+        function performInference() {
+            var inputData = document.getElementById("inputData").value;
+
+            // TODO: Communicate with Docker container and update the UI with results
+            document.getElementById("result").innerHTML = "Inference result: " + inputData;
+        }
+    </script>
+</body>
+</html>
