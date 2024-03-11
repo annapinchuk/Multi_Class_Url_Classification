@@ -6,7 +6,7 @@
 In a world dominated by the internet, the rise of malicious URLs poses a constant threat to cybersecurity. Traditional blacklists struggle to keep up with the evolving landscape of cyber threats. This README introduces an advanced machine learning approach for the detection of phishing, malware, and spam URLs. We've crafted a sophisticated model that combines adversarial training, refined feature engineering, and a powerful ensemble of classifiers. 
 
 
-[demo.webm](https://github.com/annapinchuk/URL_Multiclass_Classification/assets/93476230/73a3165c-a281-4e15-ae6b-c3f8cf5574c1)
+[demo.webm](https://github.com/orelz890/URL_Multiclass_Classification/assets/93476230/73a3165c-a281-4e15-ae6b-c3f8cf5574c1)
 
 
 ## Key Features:
@@ -35,10 +35,12 @@ Traditional blacklists often lag behind, allowing over 90% of malicious URL clic
    ```
 
 2. **Run the Flask App:**
+
    ```
    python app.py
    ```
-   Access the application at `http://localhost:5000` in your web browser.
+  * Dont forget to unzip url_model.zip in the webApp folder first.
+  * Access the application at `http://localhost:5000?use_template=1` in your web browser.
 
 3. **Test with Your URLs:**
    - Navigate to the application and input URLs for real-time detection.
